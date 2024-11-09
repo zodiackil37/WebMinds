@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoolix - Smart Ideas for your Brand are Here</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">WebMinds</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">WebMinds</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Accueil</a>
+          </li>
+        
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>À propos</a>
+          </li>
+        
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+        
+          <li>
+            <a href="#features" class="navbar-link" data-nav-link>Caractéristiques</a>
+          </li>
+        
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+        
+          <li>
+            <a href="mailto:adam.fariz@um5r.ac.ma" class="navbar-link" data-nav-link>Contactez-nous</a>
+          </li>
+        
+        </ul>
+        
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="mailto:adam.fariz@um5r.ac.ma" class="btn-outline">Contactez-nous</a>
+
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle has-before">Bienvenue dans Notre Agence</p>
+
+            <h1 class="h1 hero-title">Des idées astucieuses pour votre marque sont ici.</h1>
+
+            <p class="hero-text">
+              Profitez d'une expertise sur-mesure et adaptée à vos besoins ! Notre équipe vous accompagne avec des solutions innovantes pour dynamiser votre présence en ligne et attirer de nouveaux clients.
+            </p>
+
+            
+
+          </div>
+
+          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+            <img src="./assets/images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2-sm section-title">Nous créons des solutions pour vous, conçues pour assurer votre succès futur.</h2>
+
+            <p class="section-text">
+              Notre expertise en design et développement est au service de votre réussite, avec des solutions sur mesure pour répondre aux besoins de votre entreprise.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="has-before">
+                Coûts supplémentaires pour les éléments de conception personnalisés (si requis)
+              </li>
+
+              <li class="has-before">
+                Frais de service pour l'intégration ou la livraison de nouveaux contenus numériques
+              </li>
+
+              <li class="has-before">
+                Profitez de notre garantie de satisfaction à 100 %.
+              </li>
+
+            </ul>
+
+            <div class="btn-group">
+             
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">10+ Years Experience</span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <section class="section service" id="services" aria-label="service">
+        <div class="container">
+      
+          <p class="section-subtitle text-center">-Ce Que Nous Offrons-</p>
+      
+          <h2 class="h2 section-title text-center">Nos Services Créatifs</h2>
+      
+          <p class="section-text text-center">
+            Optimisez l’efficacité et renforcez la présence en ligne de votre marque grâce à nos services complets, conçus pour créer des expériences UI/UX exceptionnelles.
+          </p>
+      
+          <ul class="grid-list">
+      
+            <li>
+              <div class="service-card has-after">
+      
+                <figure class="card-icon">
+                  <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
+                    alt="Design UI/UX" class="img">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3 card-title">Design UI/UX</h3>
+      
+                  <p class="card-text">
+                    Nous créons des interfaces intuitives et esthétiques qui améliorent l’expérience utilisateur et favorisent l’engagement.
+                  </p>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="service-card has-after">
+      
+                <figure class="card-icon">
+                  <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="Développement d'Applications"
+                    class="img">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3 card-title">Développement d’Applications</h3>
+      
+                  <p class="card-text">
+                    Nous développons des applications fiables et conviviales, adaptées aux besoins de votre entreprise pour une fonctionnalité optimale.
+                  </p>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="service-card has-after">
+      
+                <figure class="card-icon">
+                  <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
+                    alt="Rédaction de Contenu Professionnel" class="img">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3 card-title">Rédaction de Contenu Professionnel</h3>
+      
+                  <p class="card-text">
+                    Nous créons un contenu percutant et de qualité, qui résonne avec votre audience et renforce le message de votre marque.
+                  </p>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="service-card has-after">
+      
+                <figure class="card-icon">
+                  <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy" alt="Design Graphique"
+                    class="img">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3 card-title">Design Graphique</h3>
+      
+                  <p class="card-text">
+                    Conception de visuels attractifs pour captiver votre audience et renforcer l’identité de votre marque.
+                  </p>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+          </ul>
+      
+          <a href="mailto:adam.fariz@um5r.ac.ma"
+          class="btn btn-primary">Commencer</a>
+      
+        </div>
+      </section>
+      
+      <!-- 
+        - #FEATURES
+      -->
+      
+      <section class="section features" id="features" aria-label="features">
+        <div class="container">
+      
+          <p class="section-subtitle text-center">-Pourquoi Choisir Notre Agence-</p>
+      
+          <h2 class="h2 section-title text-center">Raisons de Choisir Notre Agence</h2>
+      
+          <p class="section-text text-center">
+            Maximisez les bénéfices en réduisant les coûts de votre équipe tout en créant des expériences UI/UX exceptionnelles.
+          </p>
+      
+          <ul class="grid-list">
+      
+            <li>
+              <div class="features-card">
+      
+                <data class="card-number" value="01">01</data>
+      
+                <h3 class="h3 card-title">Plugin d'Icones Gratuit</h3>
+      
+                <p class="card-text">
+                  Offrez à vos projets des icônes de haute qualité sans frais supplémentaires.
+                </p>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="features-card">
+      
+                <data class="card-number" value="02">02</data>
+      
+                <h3 class="h3 card-title">Support Gratuit pendant 6 Mois</h3>
+      
+                <p class="card-text">
+                  Profitez de notre support technique sans frais pour toute question pendant six mois après le lancement.
+                </p>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="features-card">
+      
+                <data class="card-number" value="03">03</data>
+      
+                <h3 class="h3 card-title">Stratégie Client Personnalisée</h3>
+      
+                <p class="card-text">
+                  Élaboration de stratégies sur mesure pour chaque client, garantissant une approche unique et adaptée à vos besoins.
+                </p>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="features-card">
+      
+                <data class="card-number" value="04">04</data>
+      
+                <h3 class="h3 card-title">Images Premium de Qualité</h3>
+      
+                <p class="card-text">
+                  Utilisez des images premium sans coût supplémentaire pour embellir vos projets.
+                </p>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="features-card">
+      
+                <data class="card-number" value="05">05</data>
+      
+                <h3 class="h3 card-title">Fonctionnalités Avancées</h3>
+      
+                <p class="card-text">
+                  Accédez aux fonctionnalités les plus modernes et performantes pour assurer le succès de votre projet.
+                </p>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="features-card">
+      
+                <data class="card-number" value="06">06</data>
+      
+                <h3 class="h3 card-title">Tarifs Très Compétitifs</h3>
+      
+                <p class="card-text">
+                  Profitez de tarifs abordables tout en bénéficiant de services de haute qualité.
+                </p>
+      
+              </div>
+            </li>
+      
+          </ul>
+      
+        </div>
+      </section>
+      
+
+
+
+
+     <!-- 
+  - #FAQ
+-->
+
+<section class="section faq" aria-label="questions fréquemment posées">
+  <div class="container">
+
+    <div class="title-wrapper">
+      <h2 class="h2 section-title">Découvrez les questions fréquemment posées</h2>
+      <a href="mailto:adam.fariz@um5r.ac.ma"
+       class="btn btn-primary">Travaillons ensemble</a>
+    </div>
+
+    <ul class="grid-list">
+
+      <li>
+        <div class="faq-card">
+
+          <button class="card-action" data-accordion-action>
+            <h3 class="h3 card-title">
+              01. Combien de temps faut-il pour créer un site web ?
+            </h3>
+
+            <div class="action-icon">
+              <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+              <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+            </div>
+          </button>
+
+          <div class="card-content">
+            <p>
+              Le délai de création d'un site web dépend de la complexité du projet. Un site simple peut prendre 4 à 6 semaines, tandis que des sites plus complexes ou des applications web peuvent prendre plusieurs mois. Nous nous engageons à livrer des résultats de haute qualité dans le délai convenu.
+            </p>
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="faq-card">
+
+          <button class="card-action" data-accordion-action>
+            <h3 class="h3 card-title">
+              02. Qu'est-ce qui est inclus dans le processus de développement d'un site web ?
+            </h3>
+
+            <div class="action-icon">
+              <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+              <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+            </div>
+          </button>
+
+          <div class="card-content">
+            <p>
+              Notre processus de développement de site web comprend plusieurs étapes clés : la découverte et la planification, la conception, le développement, les tests et le déploiement. Nous offrons également un service de maintenance et de support après le lancement pour garantir le bon fonctionnement du site.
+            </p>
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="faq-card">
+
+          <button class="card-action" data-accordion-action>
+            <h3 class="h3 card-title">
+              03. Mon site sera-t-il adapté aux mobiles ?
+            </h3>
+
+            <div class="action-icon">
+              <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+              <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+            </div>
+          </button>
+
+          <div class="card-content">
+            <p>
+              Oui ! Tous les sites que nous créons sont entièrement responsive, ce qui signifie qu'ils s'adaptent automatiquement à différentes tailles d'écrans et appareils. La compatibilité mobile est un aspect essentiel de la conception moderne de sites web, et nous nous assurons que votre site offre une expérience fluide sur tous les appareils.
+            </p>
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="faq-card">
+
+          <button class="card-action" data-accordion-action>
+            <h3 class="h3 card-title">
+              04. Est-ce que je peux mettre à jour mon site une fois qu'il est en ligne ?
+            </h3>
+
+            <div class="action-icon">
+              <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+              <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+            </div>
+          </button>
+
+          <div class="card-content">
+            <p>
+              Oui, nous offrons une formation sur la gestion du contenu de votre site après sa mise en ligne. Vous aurez accès à un panneau d'administration qui vous permettra de mettre à jour le contenu de votre site à tout moment, en toute simplicité. De plus, nous proposons un service de maintenance pour les mises à jour régulières.
+            </p>
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="faq-card">
+
+          <button class="card-action" data-accordion-action>
+            <h3 class="h3 card-title">
+              05. Quels sont les coûts associés à la création d'un site web ?
+            </h3>
+
+            <div class="action-icon">
+              <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+              <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+            </div>
+          </button>
+
+          <div class="card-content">
+            <p>
+              Les coûts de création d'un site web dépendent de la taille et de la complexité du projet. Nous vous fournirons un devis personnalisé en fonction de vos besoins spécifiques. Nous veillons à offrir un excellent rapport qualité/prix tout en assurant des résultats à la hauteur de vos attentes.
+            </p>
+          </div>
+
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+</section>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">WebMinds</a>
+
+          <p class="footer-text">
+            At WebMinds, we specialize in creating intuitive, engaging, and high-performing websites tailored to meet the unique needs of each client. 
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+
+            <button type="submit" class="form-btn">
+              <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Design UI/UX</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Développement des Site Web </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Développement d’Applications</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Rédaction de Contenu Professionnel</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Design Graphique</a>
+          </li>
+
+         
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Pourquoi nous</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Expertise</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Fiabilité</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Créativité</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Innovation</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Qualité</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Réactivité</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+            <address class="contact-link address">
+              Maroc Casablanca 
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+7894631546876" class="contact-link">+212691174746</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:info@hoolix.com" class="contact-link">adam.fariz@um5r.ac.ma</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 WebMinds | Created by <a href="#" class="copyright-link">Fariz Adam</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
